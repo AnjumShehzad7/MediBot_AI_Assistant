@@ -1,0 +1,45 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey there
+      - good morning
+
+  - intent: ask_doctor_appointment
+    examples: |
+      - Can I book an appointment with [Dr. Smith](doctor) tomorrow?
+      - I need to see [Dr. Patel](doctor) on [Monday](date).
+      - Schedule me with [Dr. Johnson](doctor) next [Friday](date).
+      - Can I meet [Dr. Roberts](doctor) this [weekend](date)?
+      - Book an appointment with [Dr. Miller](doctor) for [tomorrow](date).
+
+  - intent: ask_symptom_info
+    examples: |
+      - What are the symptoms of flu?
+      - Tell me more about diabetes.
+      - What should I do if I have a headache?
+
+  - intent: log_symptoms
+    examples: |
+      - I have been feeling feverish for two days.
+      - I'm having a cough and sore throat.
+      - I've had a headache for a week.
+
+  - intent: check_doctor_availability
+    examples: |
+      - Is Dr. Smith available tomorrow?
+      - Can I see Dr. Patel this weekend?
+
+  - intent: remind_medication
+    examples: |
+      - Remind me to take my medicine at 8 PM.
+      - Can you remind me of my medication schedule?
+      - When should I take my next pill?
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later

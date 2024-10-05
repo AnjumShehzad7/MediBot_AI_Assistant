@@ -1,0 +1,29 @@
+version: "3.1"
+
+stories:
+  - story: book doctor appointment
+    steps:
+      - intent: ask_doctor_appointment
+      - action: utter_ask_doctor_appointment
+      - slot_was_set:
+          - doctor: "Dr. Smith"
+      - action: action_book_doctor
+      - slot_was_set:
+          - date: "tomorrow"
+      - action: utter_confirm_appointment
+
+
+  - story: provide symptom info
+    steps:
+      - intent: ask_symptom_info
+      - action: action_provide_symptom_info
+
+  - story: log user symptoms
+    steps:
+      - intent: log_symptoms
+      - action: action_log_symptoms
+
+  - story: remind medication
+    steps:
+      - intent: remind_medication
+      - action: action_remind_medication

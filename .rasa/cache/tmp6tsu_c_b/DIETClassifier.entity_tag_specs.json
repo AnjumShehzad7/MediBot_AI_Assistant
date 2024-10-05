@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-date",
+      "2": "I-date",
+      "3": "L-date",
+      "4": "U-date",
+      "5": "B-doctor",
+      "6": "I-doctor",
+      "7": "L-doctor",
+      "8": "U-doctor",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-date": 1,
+      "I-date": 2,
+      "L-date": 3,
+      "U-date": 4,
+      "B-doctor": 5,
+      "I-doctor": 6,
+      "L-doctor": 7,
+      "U-doctor": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

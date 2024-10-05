@@ -1,0 +1,11 @@
+# Ignore virtual environments
+rasa_env/
+*.pyc
+__pycache__/
+
+# Ignore Rasa trained models
+models/
+
+# Ignore local database and tracker store files
+*.db
+*.log
