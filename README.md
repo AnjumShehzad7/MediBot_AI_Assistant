@@ -47,12 +47,12 @@ Use this to trace any issues with intents, responses, or custom actions.
 
 ## Project Structure
 
-├── actions.py         # Custom actions
+├── actions.py         **Custom actions**
 
-├── config.yml         # NLU and policies config
+├── config.yml         **NLU and policies config**
 
-├── data/              # Training data (nlu, stories, rules)
+├── data/              **Training data (nlu, stories, rules)**
 
-├── domain.yml         # Slots, intents, and responses
+├── domain.yml         **Slots, intents, and responses**
 
-└── endpoints.yml      # Action server configuration
+└── endpoints.yml      **Action server configuration**
