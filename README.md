@@ -1,4 +1,4 @@
-# MediBot AI Assistant 🤖💊
+# MediBot AI Assistant 
 
 **MediBot AI Assistant** is a healthcare chatbot built with [Rasa](https://rasa.com/). 
 It helps users book doctor appointments, log symptoms, and receive medication reminders.
